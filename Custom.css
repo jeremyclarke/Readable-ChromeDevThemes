@@ -36,9 +36,10 @@ Mac:
 #-webkit-web-inspector #console-message,
 #-webkit-web-inspector .text-editor-contents,
 #-webkit-web-inspector #console-view * {
-	font-size: 10px !important;
+	font-size: 12px !important;
 	line-height: 1.2em !important;
-	font-family: Menlo, "Consolas", monospace !important;
+	font-family: "Source Code Pro", "Menlo", "Consolas", monospace !important;
+
 }
 
 /*	Html inspect area
@@ -115,6 +116,8 @@ Mac:
 #elements-content .parent.selected + *.expanded
 {
 	background: #eee !important;
+	padding-top: .5em;
+	padding-bottom: .5em;
 	border-left: 1px dashed #aaa;
 	border-bottom: 1px dashed #aaa;
 	border-right: 1px dashed #aaa;
@@ -282,4 +285,3 @@ Mac:
 
 #-webkit-web-inspector .split-view-sidebar-right .webkit-css-property {
 }
-
