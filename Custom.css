@@ -109,7 +109,10 @@ Mac:
 /* current select line style */
 #-webkit-web-inspector .elements .selected {
 	background: #FAD165 !important;
-	border: 1px solid #aaa;
+	border: 0px solid #aaa;
+	padding-top: .375em !important;
+	padding-bottom: .375em !important;
+
 }
 
 /* wrap expanded style */
@@ -118,11 +121,11 @@ Mac:
 	background: #eee !important;
 	padding-top: .5em;
 	padding-bottom: .5em;
-	border-left: 1px dashed #aaa;
+/*	border-left: 1px dashed #aaa;
 	border-bottom: 1px dashed #aaa;
 	border-right: 1px dashed #aaa;
 	border-radius: 0 0 3px 3px;
-	margin-bottom: 10px !important;
+	margin-bottom: 10px !important;*/
 }
 
 /*	------------------------------------------------
